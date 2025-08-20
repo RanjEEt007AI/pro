@@ -3,6 +3,12 @@ variable "rg_name" {
   default = "rg-demo"
 }
 
+
+variable "rg_name1" {
+  type    = string
+  default = "rg-demo1"
+}
+
 variable "location" {
   type    = string
   default = "west us"
