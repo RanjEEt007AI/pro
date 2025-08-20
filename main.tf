@@ -3,13 +3,13 @@
 data "azurerm_client_config" "current" {}
 
 # Resource Group
-resource "azurerm_resource_group" "rg" {
+resource "azurerm_resource_group" "rg1" {
   name     = var.rg_name
   location = var.location
 }
 
 # Storage Account
-resource "azurerm_storage_account" "mystorage" {
+resource "azurerm_storage_account" "mystoragee" {
   name                     = "mystorage${random_integer.rand.result}"
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
