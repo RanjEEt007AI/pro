@@ -1,0 +1,8 @@
+vm_admin_password = "Ranjeet@123"
+
+resource_group_name   = "demo-rg"
+location              = "Central India"
+storage_account_name  = "demostorage98765"
+container_name        = "appdata"
+
+
